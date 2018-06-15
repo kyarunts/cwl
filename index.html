@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Appendix Postcard - Coarse Weave Lanyard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .test {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 22vw;
+        }
+
+        .a {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            box-sizing: border-box;
+        }
+
+        .b {
+            width: 1px;
+            background-color: gray;
+            height: 100px;
+        }
+
+        .c {
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            border: 1px solid gray;
+            position: relative;
+            box-sizing: border-box;
+            padding: 5px;
+            width: 20vw;
+            overflow: hidden;
+        }
+
+        .header {
+            font-size: 14px;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .separator {
+            height: 1px;
+            background-color: gray;
+            margin: 5px 0;
+        }
+
+        .content {
+            font-size: 10.5px;
+        }
+
+        .cwl__flex-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cwl__content-container {
+            width: 70vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        .cwl__image-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .cwl__image-container img {
+            width: 100%;
+        }
+        .cwl__footer {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .cwl__footer-container {
+            flex-grow: 1;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            padding: 5%;
+        }
+
+        .cwl__footer-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 5%;
+            flex-basis: 30%;
+        }
+
+        .cwl__footer-title {
+            margin: 0 0 20px 0;
+        }
+
+        .cwl__footer-item:last-child {
+            padding-right: 0;
+        }
+
+        .cwl__footer-link img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="cwl__flex-container">
+        <div class="cwl__content-container">
+            <div class="cwl__image-container">
+                <img src="product-e.png" alt="">
+
+                <div class="test">
+                    <div class="a">
+                    </div>
+                    <div class="b"></div>
+                    <div class="c">
+                        <div class="header">
+                            PLATEPERFECT™
+                        </div>
+                        <div class="separator"></div>
+                        <div class="content">
+                            AZX’s special Nickel Plated Iron formula reduces <br>
+                            chipping, is of greater weight and is stronger than <br>
+                            our competitors’ hardware.
+                            All AZX hardware is CPSIA, Prop 65, and FHSA compliant.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="cwl__footer">
+                <div class="cwl__footer-container">
+                    <div class="cwl__footer-item">
+                        <h4 class="cwl__footer-title">Product Video</h4>
+                        <a 
+                            href="http://www.bit.ly/2gHixlx" 
+                            class="cwl__footer-link"
+                        >
+                            <img src="http://aztex.com/Promostandards/Postcard%20Appendix/images/video.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="cwl__footer-item">
+                        <h4 class="cwl__footer-title">Interactive 360° Photo</h4>
+                        <a 
+                            href="http://www.bit.ly/2fwi68w" 
+                            class="cwl__footer-link"
+                        >
+                            <img src="http://aztex.com/Promostandards/Postcard%20Appendix/images/interactive.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="cwl__footer-item">
+                        <h4 class="cwl__footer-title">Flip Catalog</h4>
+                        <a 
+                            href="http://www.aztex.com/AZX_FLIP/mobile/index.html#p=49" 
+                            class="cwl__footer-link"
+                        >
+                            <img src="http://aztex.com/Promostandards/Postcard%20Appendix/images/catalog.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
